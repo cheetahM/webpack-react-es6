@@ -1,0 +1,31 @@
+{
+  "name": "webpack-react-es6",
+  "version": "1.0.0",
+  "description": "React, ES6 and webpack starter kit",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cheetahM/webpack-react-es6.git"
+  },
+  "keywords": [],
+  "author": "chetan meshram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheetahM/webpack-react-es6/issues"
+  },
+  "homepage": "https://github.com/cheetahM/webpack-react-es6",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^1.7.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-merge": "^0.7.1"
+  }
+}
