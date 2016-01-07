@@ -51,7 +51,8 @@ if(TARGET === 'start' || !TARGET) {
 
         // Parse host and port from env so this is easy to customize.
         host: process.env.HOST,
-        port: process.env.PORT
+        port: process.env.PORT,
+        devtool: 'eval-source-map'
       },
       plugins: [
         new webpack.HotModuleReplacementPlugin()
